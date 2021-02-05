@@ -85,16 +85,19 @@
 			<version>7.41.2</version>
 		</dependency>
 	</dependencies>
-	<distributionManagement>
-		<snapshotRepository>
-       			<id>nexus</id>
-      			 <url>http://35.238.138.203:8081/nexus/content/repositories/snapshots</url>
-  		  </snapshotRepository>
-  	        <repository>
-			<id>nexus</id>
-			<url>http://35.238.138.203:8081/nexus/content/repositories/releases</url>
-   		 </repository>
-	</distributionManagement>
+	</dependencies>
+
+ 
+<distributionManagement>
+	<snapshotRepository>
+		<id>nexus</id>
+		<url>http://35.154.90.22:8081/repository/maven-snapshots/</url>
+	</snapshotRepository>
+	<repository>
+		<id>nexus</id>
+		<url>http://35.154.90.22:8081/repository/maven-releases/</url>
+	</repository>
+</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
