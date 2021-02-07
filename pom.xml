@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.hcl.Adhi2021</groupId>
     <artifactId>GeneralProgExec</artifactId>
-    <version>0.0.9-SNAPSHOTS</version>
+    <version>0.0.6-SNAPSHOTS</version>
     <packaging>jar</packaging>
     
 
